@@ -13,3 +13,6 @@ def display_board(board):
 
 theBoard = [' '] * 10
 
+for num in range(0,10):
+    if num %2==0:
+        print ('this is an even number', num)
